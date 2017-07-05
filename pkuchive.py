@@ -9,7 +9,7 @@ def procedure(dir_name) :
     return dict['1001'] 
 def version() :
     print("")
-    print("pkuchive 1.0.0 by Kvar_ispw17 with Python 2.7.13")
+    print("pkuchive 1.0.1 by Kvar_ispw17 with Python 2.7.13")
     print("email : enkerewpo@gmail.com")
 
 def usage() :
@@ -37,12 +37,14 @@ if __name__=='__main__':
             path = os.getcwd()
             path += '\\'
             path += input_file
-            
+            tot = 0
             for dir in os.listdir(path) :
+                tot = tot + 1
                 strf = dict[dir]
                 strd = dir + ' ' + strf
                 strd = strd.decode('utf-8')
                 os.rename(os.path.join(path, dir), os.path.join(path,strd))
+            print ("\nsuccessfully tag " + str(tot) + " folder")
         elif op == '-h' :
             usage()
             sys.exit()
