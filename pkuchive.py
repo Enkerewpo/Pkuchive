@@ -2,7 +2,8 @@
 import sys
 import getopt
 import os
-dic = open("POJ_Html\\archive_map.arc", "r")
+import string
+dic = open("POJ_Html\\archive_map.arc", "r", encoding= 'utf-8')
 
 def procedure(dir_name) :
     dir_name = str(dir_name)
@@ -15,7 +16,7 @@ def version() :
 def usage() :
         print("\npkuchive usage:")
         print("     -i [dir] : selection the directory that contains your")
-        print("                problems code folders without ending with \"\\\"")
+        print("                problems code folders")
         print("     -h       : show this helping page")
         print("     -ver     : show the version of pkuchive")
 
@@ -42,7 +43,7 @@ if __name__=='__main__':
                 tot = tot + 1
                 strf = dict[dir]
                 strd = dir + ' ' + strf
-                strd = strd.decode('utf-8')
+                # strd = strd.decode('utf-8')
                 os.rename(os.path.join(path, dir), os.path.join(path,strd))
             print ("\nsuccessfully tag " + str(tot) + " folder")
         elif op == '-h' :
