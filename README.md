@@ -24,11 +24,14 @@ Let your folder just in that dir. Like the `example` folder provide with pkuchiv
 3. enjoy!
 
 ## Startup
-pkuchive usage:
+
+```pkuchive usage:
+
      -i [dir] : selection the directory that contains your
-                problems code folders
+                problems code folders           
      -h       : show this helping page
      -ver     : show the version of pkuchive
+```
 
 ## Change log
 ### 2017.7.6 
