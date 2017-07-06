@@ -10,7 +10,7 @@ Goto [https://www.python.org/downloads/](https://www.python.org/downloads/) and 
 Python is required to run the pkuchive program. Remember to install Python.
 ### 3. Get release of pkuchive
 Visit [https://github.com/Enkerewpo/pkuchive/releases](https://github.com/Enkerewpo/pkuchive/releases) to get pkuchive's latest version.
-Once you have unzip the release file at some dirctory on you computer, __that dirctory__ will stayed being your __work dir__.
+Once you have unziped the release file at some dirctory on you computer, __that dirctory__ will stayed being your __work dir__.
 
 ## Using pkuchive
 1. Copy the folder fully to the root of your __work dir__ which contains the `pkuchive.py` file.
