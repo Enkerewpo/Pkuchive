@@ -23,6 +23,13 @@ Let your folder just in that dir. Like the `example` folder provide with pkuchiv
    *inputdir* is the folder that contains your poblems folder.
 3. enjoy!
 
+## Startup
+pkuchive usage:
+     -i [dir] : selection the directory that contains your
+                problems code folders
+     -h       : show this helping page
+     -ver     : show the version of pkuchive
+
 ## Change log
 ### 2017.7.6 
   fixed filename for Chinese character by using decode UTF-8 [Kvar_ispw17].
