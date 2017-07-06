@@ -13,7 +13,7 @@ Visit [https://github.com/Enkerewpo/pkuchive/releases](https://github.com/Enkere
 Once you have unzip the release file at some dirctory on you computer, __that dirctory__ will stayed being your __work dir__.
 
 ## Using pkuchive
-1. Copy the folder fully to the root of your __work dir__ which contains the `pkuchive.py' file.
+1. Copy the folder fully to the root of your __work dir__ which contains the `pkuchive.py` file.
 Let your folder just in that dir. Like the `example` folder provide with pkuchive.
 2. run command:
    
