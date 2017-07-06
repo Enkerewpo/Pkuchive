@@ -7,7 +7,16 @@ current version `1.0.0` release on 2017.7.6
 Goto [PKU JudgeOnline](http://poj.org/) and login. Click the link `archive` on the right to download the `*.tgz` file.
 ### 2. Download Python
 Goto [https://www.python.org/downloads/](https://www.python.org/downloads/) and choose either version of Python to download.
-Python is required to run the pkuchive program.
+Python is required to run the pkuchive program. Remember to install Python.
 ### 3. Get release of pkuchive
 Visit [https://github.com/Enkerewpo/pkuchive/releases](https://github.com/Enkerewpo/pkuchive/releases) to get pkuchive's latest version.
-Once you have unzip the release file at some dirctory on you computer, that dirctory will stayed being your work path.
+Once you have unzip the release file at some dirctory on you computer, __that dirctory__ will stayed being your __work dir__.
+
+## Using pkuchive
+1. Copy the folder fully to the root of your __work dir__ which contains the `pkuchive.py' file.
+Let your folder just in that dir. Like the `example` folder provide with pkuchive.
+2. run command:
+   
+   `python pkuchive.py -i [inputdir]`
+   *inputdir* is the folder that contains your poblems folder.
+3. enjoy!
