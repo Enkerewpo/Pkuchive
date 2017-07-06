@@ -2,6 +2,18 @@
 A tool for OIer to tag the archive folder provided by PKU openjudge achieve service.
 
 Written by [Kvar_ispw17](mailto:enkerewpo@gmail.com) on Python 2.7.13
+## What is this ?
+When you download your archive from PKU openjugde website, you will receive a folder with only problems' number in it.
+Under the `pkuchive`'s help, your folder will be tag-on by the problems' titles which provides a pretty archive folder.
+```
+BEFORE:                                AFTER:
+YOUR FOLDER                            YOUR FOLDER
+   |----------- 1001                      |----------- 1001 A+B Problem
+   |----------- 1002                      |----------- 1002 Exponentiation
+   |----------- 1003                      |----------- 1003 487-3279
+   |----------- 1004                      |----------- 1004 Hangover
+   ...                                    ...
+```
 
 current version `1.0.1` release on 2017.7.6
 ## Setup
