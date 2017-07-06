@@ -25,8 +25,8 @@ Let your folder just in that dir. Like the `example` folder provide with pkuchiv
 
 ## Startup
 
-```pkuchive usage:
-
+```
+pkuchive usage:
      -i [dir] : selection the directory that contains your
                 problems code folders           
      -h       : show this helping page
