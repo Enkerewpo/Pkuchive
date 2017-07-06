@@ -1,3 +1,4 @@
+#-*-coding:utf-8-*-
 import sys
 import getopt
 import os
@@ -40,6 +41,7 @@ if __name__=='__main__':
             for dir in os.listdir(path) :
                 strf = dict[dir]
                 strd = dir + ' ' + strf
+                strd = strd.decode('utf-8')
                 os.rename(os.path.join(path, dir), os.path.join(path,strd))
         elif op == '-h' :
             usage()
