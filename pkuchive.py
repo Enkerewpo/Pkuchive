@@ -45,7 +45,7 @@ if __name__=='__main__':
                 strd = dir + ' ' + strf
                 # strd = strd.decode('utf-8')
                 os.rename(os.path.join(path, dir), os.path.join(path,strd))
-            print ("\nsuccessfully tag " + str(tot) + " folder")
+            print ("\nsuccessfully tagged " + str(tot) + " folder(s)")
         elif op == '-h' :
             usage()
             sys.exit()
