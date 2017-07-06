@@ -1,7 +1,7 @@
 # pkuchive
 A tool for OIer to tag the archive folder provided by PKU openjudge achieve service.
 
-current version `1.0.0` release on 2017.7.6
+current version `1.0.1` release on 2017.7.6
 ## Setup
 ### 1. Get your POJ archive
 Goto [PKU JudgeOnline](http://poj.org/) and login. Click the link `archive` on the right to download the `*.tgz` file.
@@ -20,3 +20,7 @@ Let your folder just in that dir. Like the `example` folder provide with pkuchiv
    `python pkuchive.py -i [inputdir]`
    *inputdir* is the folder that contains your poblems folder.
 3. enjoy!
+
+## Change log
+### 2017.7.6 
+  fixed filename for Chinese character by using decode UTF-8 [Kvar_ispw17].
