@@ -1,6 +1,7 @@
 # pkuchive
 A tool for OIer to tag the archive folder provided by PKU openjudge achieve service.
-Written by Kvar_ispw17 on Python 2.7.13
+
+Written by [Kvar_ispw17](enkerewpo@gmail.com) on Python 2.7.13
 
 current version `1.0.1` release on 2017.7.6
 ## Setup
