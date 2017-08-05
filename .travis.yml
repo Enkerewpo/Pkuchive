@@ -12,5 +12,3 @@ python:
 install : true
 script: 
   /usr/bin/env python pkuchive.py -ver
-deploy:
-  skip_cleanup: true
