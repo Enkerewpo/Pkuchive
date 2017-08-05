@@ -13,8 +13,6 @@ python:
   - "nightly" # currently points to 3.7-dev
 os:
   - linux
-  - osx
-  - windows
 install : true
 script: 
   /usr/bin/env python pkuchive.py -ver
