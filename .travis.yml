@@ -1,7 +1,5 @@
 language: python
 python:
-  - "2.6"
-  - "2.7"
   - "3.2"
   - "3.3"
   - "3.4"
@@ -13,6 +11,6 @@ python:
   - "nightly" # currently points to 3.7-dev
 install : true
 script: 
-  /usr/bin/env python pkuchive.py -i examples
+  /usr/bin/env python pkuchive.py -ver
 deploy:
   skip_cleanup: true
