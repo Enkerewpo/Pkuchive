@@ -3,7 +3,7 @@ import sys
 import getopt
 import os
 import string
-dic = open("POJ_Html\\archive_map.arc", "r")
+dic = open("archive_map.arc", "r")
 
 def procedure(dir_name) :
     dir_name = str(dir_name)
