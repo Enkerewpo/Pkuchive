@@ -2,3 +2,4 @@
 *.css linguist-language=python
 *.json linguist-language=python
 *.js linguist-language=python
+*.arc linguist-language=python
