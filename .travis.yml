@@ -11,8 +11,8 @@ python:
   - "3.6-dev" # 3.6 development branch
   - "3.7-dev" # 3.7 development branch
   - "nightly" # currently points to 3.7-dev
-# command to install dependencies
-install: "pip install netifaces urllib
-# command to run tests
-python pkuchive.py -i examples
-script: pytest
+install : true
+script: 
+  /usr/bin/env python pkuchive -i examples
+deploy:
+  skip_cleanup: true
