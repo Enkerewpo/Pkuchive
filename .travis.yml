@@ -13,6 +13,6 @@ python:
   - "nightly" # currently points to 3.7-dev
 install : true
 script: 
-  /usr/bin/env python pkuchive -i examples
+  /usr/bin/env python pkuchive.py -i examples
 deploy:
   skip_cleanup: true
