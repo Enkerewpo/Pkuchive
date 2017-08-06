@@ -11,13 +11,7 @@ python:
   - "nightly" # currently points to 3.7-dev
 os:
   - linux
-install : true
-script: 
-  /usr/bin/env python pkuchive.py -i example
-
-
-os:
   - osx
 install : true
-script:
+script: 
   python pkuchive.py -i example
