@@ -13,4 +13,11 @@ os:
   - linux
 install : true
 script: 
-  /usr/bin/env python pkuchive.py -ver
+  /usr/bin/env python pkuchive.py -i examples
+
+
+os:
+  - osx
+install : true
+script:
+  python pkuchive.py -i examples
