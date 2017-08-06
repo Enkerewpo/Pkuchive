@@ -1,5 +1,5 @@
 # pkuchive
- [![Linux Build Status](https://travis-ci.org/Enkerewpo/pkuchive.svg?branch=master)](https://travis-ci.org/Enkerewpo/pkuchive)
+ [![Build Status](https://travis-ci.org/Enkerewpo/pkuchive.svg?branch=master)](https://travis-ci.org/Enkerewpo/pkuchive)
  
 A tool for OIer to tag the archive folder provided by PKU openjudge achieve service.
 
