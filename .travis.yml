@@ -13,6 +13,6 @@ os:
   - linux
 install : true
 script: 
-  python pkuchive.py -i example
-  cd example
-  ls
+  - python pkuchive.py -i example
+  - cd example
+  - ls
