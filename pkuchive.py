@@ -41,7 +41,7 @@ if __name__=='__main__':
         if op == '-i' :
             input_file = value
             path = os.getcwd()
-            path += '\\'
+            path += '/'
             path += input_file
             tot = 0
             for dir in os.listdir(path) :
