@@ -14,5 +14,18 @@ os:
 install : true
 script: 
   - python pkuchive.py -i example
-  - cd example
-  - ls
+  - cd example\1015 Jury Compromise
+  - g++ 16675073_AC_16MS_624K.cc -o test -Wall -O2 -std=gnu++17
+
+addons:
+    apt:
+    packages:
+    - build-essential
+    - clang-3.3
+    - fakeroot
+    - git
+    - libsecret-1-dev
+    - rpm
+    - libx11-dev
+    - libxkbfile-dev
+    - gcc
