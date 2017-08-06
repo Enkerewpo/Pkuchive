@@ -3,11 +3,12 @@ import sys
 import getopt
 import os
 import string
-dic = open("archive_map.arc", "r")
+dic = open("archive_map.arc", "r", encoding = 'utf8')
 
 def procedure(dir_name) :
     dir_name = str(dir_name)
-    return dict['1001'] 
+    dir_name = dir_name[:4]
+    return dict[dir_name] 
 def version() :
     print("")
     print("pkuchive 1.0.1 by Kvar_ispw17 with Python 2.7.13")
@@ -24,6 +25,7 @@ if __name__=='__main__':
     opts, args = getopt.getopt(sys.argv[1:], "hi:|ver")
     input_file = ''
     dict = {}
+    argc = len(sys.argv)
     for w in range(1000, 4000) :
         line = dic.readline()
         if not line:
@@ -32,6 +34,9 @@ if __name__=='__main__':
         A = str(str_full[:4])
         B = str(str_full[5:])
         dict[A] = B
+    if(argc == 1) :
+        usage()
+        sys.exit()
     for op, value in opts:
         if op == '-i' :
             input_file = value
@@ -41,6 +46,7 @@ if __name__=='__main__':
             tot = 0
             for dir in os.listdir(path) :
                 tot = tot + 1
+                if(len(str(dir)) > 4) : continue
                 strf = dict[dir]
                 strd = dir + ' ' + strf
                 # strd = strd.decode('utf-8')
@@ -52,3 +58,4 @@ if __name__=='__main__':
         elif op == '-v' :
             version()
             sys.exit()
+        
