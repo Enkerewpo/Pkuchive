@@ -3,9 +3,14 @@ from setuptools import setup
 import pkuchive
 
 setup(
+    python_requires='<3',
+    install_requires = [
+        "setuptools >= 0.7.0",
+        "pkginfo >= 1.0",
+    ],
     name='pkuchive',
     packages=['pkuchive'],
-    version='1.0.8',
+    version='1.0.3',
     description='A tool for OIer to tag the archive folder provided by PKU openjudge (POJ) archive service.',
     author='Kvar_ispw17',
     author_email='enkerewpo@gmail.com',
@@ -14,7 +19,9 @@ setup(
     keywords=['acm-icpc', 'noip', 'noi', 'openjudge '],
     license="GPL3",
     classifiers=[
-         "Programming Language :: Python :: 2.7",
+        'Development Status :: 3 - Alpha',
+        "Operating System :: POSIX :: Linux",
+        "Programming Language :: Python :: 2.7",
     ],
     data_files=[('pkuchive_data', ['pkuchive/archive_map.arc'])],
     entry_points={
