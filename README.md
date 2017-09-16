@@ -1,6 +1,6 @@
 # pkuchive
  [![Build Status](https://travis-ci.org/enkerewpo/pkuchive.svg?branch=master)](https://travis-ci.org/enkerewpo/pkuchive)
- [![PyPI](https://img.shields.io/pypi/v/pkuchive.svg)]()
+ [![PyPI](https://img.shields.io/pypi/v/pkuchive.svg)](https://pypi.python.org/pypi/pkuchive)
  
 A tool for OIer to tag the archive folder provided by PKU openjudge achieve service.
 
