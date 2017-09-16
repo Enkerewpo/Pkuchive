@@ -1,31 +1,8 @@
 language: python
 python:
-  - "3.2"
-  - "3.3"
-  - "3.4"
-  - "3.5"
-  - "3.5-dev" # 3.5 development branch
-  - "3.6"
-  - "3.6-dev" # 3.6 development branch
-  - "3.7-dev" # 3.7 development branch
-  - "nightly" # currently points to 3.7-dev
+  - "2.7"
 os:
   - linux
 install : true
 script: 
-  - python pkuchive.py -i example
-  - cd "example/1015 Jury Compromise"
-  - g++ 16675073_AC_16MS_624K.cc -o test -Wall -O2
-
-addons:
-    apt:
-    packages:
-    - build-essential
-    - clang-3.3
-    - fakeroot
-    - git
-    - libsecret-1-dev
-    - rpm
-    - libx11-dev
-    - libxkbfile-dev
-    - gcc
+  - python setup.py sdist
