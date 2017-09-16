@@ -11,7 +11,7 @@ def procedure(dir_name) :
     return dict[dir_name] 
 def version() :
     print("")
-    print("pkuchive 1.0.1 by Kvar_ispw17 with Python 2.7.13")
+    print("pkuchive 1.0.1 by Kvar_ispw17 with Python 3.6.2")
     print("email : enkerewpo@gmail.com")
 
 def usage() :
