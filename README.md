@@ -27,9 +27,9 @@ Goto [https://www.python.org/downloads/](https://www.python.org/downloads/) and 
 Moreover, pip is required to install the pkuchive program. Remember to install [pip](https://pypi.python.org/pypi/pip/9.0.1).
 
 ## Installing pkuchive
-in __root__ user and type this in your shell:
+type this in your shell:
 ```
-~$ pip install pkuchive
+~$ sudo pip install pkuchive
 ```
 
 ## Startup
