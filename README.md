@@ -29,14 +29,14 @@ Moreover, pip is required to install the pkuchive program. Remember to install [
 ## Installing pkuchive
 type this in your shell:
 ```
-~$ sudo pip install pkuchive
+ $ sudo pip install pkuchive
 ```
 
 ## Startup
 everywhere in shell you can access pkuchive just by typing its name.
 
 ```
-~$ pkuchive
+ $ pkuchive
 
 pkuchive usage:
      -i [dir] : selection the directory that contains your
